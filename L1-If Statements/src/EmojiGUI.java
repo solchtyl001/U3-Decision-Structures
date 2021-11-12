@@ -27,6 +27,7 @@ public class EmojiGUI {
 
         frame.add(panel);
         frame.setVisible(true);
+        boolean smiley = true;
     }
 
     private class EmojiPanel extends JPanel{
@@ -66,6 +67,8 @@ public class EmojiGUI {
         public void actionPerformed(ActionEvent actionEvent) {
 
             //SET THE FLAG SMILE = TRUE
+
+           
 
             panel.repaint();
         }
