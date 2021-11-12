@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/L1-If Statements/L1-If Statements.iml" filepath="$PROJECT_DIR$/L1-If Statements/L1-If Statements.iml" />
+      <module fileurl="file://$PROJECT_DIR$/L2-If Else Statements/L2-If Else Statements.iml" filepath="$PROJECT_DIR$/L2-If Else Statements/L2-If Else Statements.iml" />
+      <module fileurl="file://$PROJECT_DIR$/L3-Random Numbers/L3-Random Numbers.iml" filepath="$PROJECT_DIR$/L3-Random Numbers/L3-Random Numbers.iml" />
+      <module fileurl="file://$PROJECT_DIR$/L4-Logical Operators/L4-Logical Operators.iml" filepath="$PROJECT_DIR$/L4-Logical Operators/L4-Logical Operators.iml" />
+      <module fileurl="file://$PROJECT_DIR$/L5-Comparing Strings/L5-Comparing Strings.iml" filepath="$PROJECT_DIR$/L5-Comparing Strings/L5-Comparing Strings.iml" />
+      <module fileurl="file://$PROJECT_DIR$/L6-If Else If Statements/L6-If Else If Statements.iml" filepath="$PROJECT_DIR$/L6-If Else If Statements/L6-If Else If Statements.iml" />
+      <module fileurl="file://$PROJECT_DIR$/L7-Switch Statements/L7-Switch Statements.iml" filepath="$PROJECT_DIR$/L7-Switch Statements/L7-Switch Statements.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/U3-Decision-Structures.iml" filepath="$PROJECT_DIR$/.idea/U3-Decision-Structures.iml" />
+    </modules>
+  </component>
+</project>
