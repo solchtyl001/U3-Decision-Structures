@@ -1,3 +1,5 @@
+import javax.swing.*;
+
 public class ShippingCosts {
 
     /*
@@ -22,5 +24,55 @@ public class ShippingCosts {
     As always, your program should include a method.
      */
 
+    public static void main(String[] args) {
+       double weight = Double.parseDouble(JOptionPane.showInputDialog("enter weight"));
+       int milesShipped =Integer.parseInt(JOptionPane.showInputDialog("enter shipping distance"));
+       double shippingCost;
+       double cost;
 
-}
+       if (weight>=10){
+       shippingCost = 4.8;
+
+       }
+       else {
+         if (weight<=10){
+             shippingCost=2.20;
+         }else {
+             shippingCost = 1.10;
+         }
+       }
+    cost= cost(shippingCost, milesShipped);
+        JOptionPane.showMessageDialog(null, "cost is "+cost);
+    }
+
+
+    public static double cost(double rate, int miles) {
+
+        int costMultiplyer = miles/100;
+
+        if (costMultiplyer == 0) {
+            costMultiplyer = 1;
+        }
+        return rate * costMultiplyer;
+
+    }
+
+
+
+
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
